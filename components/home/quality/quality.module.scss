@@ -1,0 +1,57 @@
+.wrapper {
+    width: 100%;
+    background: rgba(146, 10, 146, .1);
+    padding: 5vh 0 5vh 0;
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        .stats {
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            .item {
+                height: 15vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                h2 {
+                    font-size: .85rem;
+                }
+                span {
+                    font-size: 1.5rem;
+                }
+                p {
+                    font-size: .5rem;
+                }
+            }
+        }
+    }
+    .avis {
+        width: 40%;
+        .avis_wrapper {
+            width: 80%;
+            margin: 0 auto;
+            p {
+                font-size: .5rem;
+                line-height: .65rem;
+                color: rgb(146, 10, 146);
+                font-weight: 700;
+            }
+            .redacteur {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                img {
+                    width: 8vh;
+                    height: 8vh;
+                    object-fit: cover;
+                    border-radius: 50%;
+                    margin-top: 2vh;
+                    margin-right: 1vh;
+                }
+            }
+        }
+    }
+}

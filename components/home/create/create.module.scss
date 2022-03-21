@@ -1,0 +1,35 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        .title {
+            width: 50%;
+            h1 {
+                font-size: var(--medium-title);
+            }
+        }
+        .steps {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 10vh 0 10vh 0;
+            .card {
+                width: 30%;
+                img {
+                    width: 2vw;
+
+filter: invert(12%) sepia(42%) saturate(5669%) hue-rotate(287deg) brightness(124%) contrast(111%);
+                }
+                h2 {
+                    padding: 2vh 0 2vh 0;
+                }
+                h2,p {
+                    font-size: .5rem;
+                    line-height: .65rem;
+                }
+            }
+        }
+    }
+}

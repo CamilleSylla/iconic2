@@ -1,0 +1,39 @@
+.wrapper {
+    width: 100%;
+    background: white;
+    .container {
+        width: 70%;
+        margin: 0 auto;
+        padding: 10vh 0 10vh 0;
+        .card {
+            display: flex;
+            align-items: center;
+            padding: 2.5vh 0 2.5vh 0;
+            .text {
+                width: 40%;
+                img {
+                    width: 15vh;
+                    height: 15vh;
+                    border-radius: 50%;
+                    border: 2px solid var(--third-color);
+                    object-fit: contain;
+                    padding: 2vh 2vh 2vh 2vh;
+                }
+                p {
+                    width: 80%;
+                }
+            }
+            .mockup {
+                transition: all ease .5s;
+                width: 40vw;
+                height: 50vh;
+                object-fit: contain;
+            }
+            &:hover {
+                .mockup {
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+}
