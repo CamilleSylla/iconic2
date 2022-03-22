@@ -1,0 +1,54 @@
+.wrapper {
+    padding: 10vh 0 10vh 0;
+    .project {
+        width: 90%;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+        &:hover {
+            img {
+                opacity: 1;
+                transform: translate3d(0, -50%, 0);
+            }
+            h3 {
+                // -webkit-text-stroke: .5px var(--third-color);
+                // color: #F2F2F2;
+                letter-spacing: 1vw;
+            }
+        }
+        img {
+            height: 80%;
+            position: absolute;
+            right: 5vw;
+            top: 50%;
+            transform: translate3d(-10%, -40%, 0);
+            filter: invert(8%) sepia(98%) saturate(4870%) hue-rotate(295deg) brightness(108%) contrast(99%);
+            opacity: 0;
+            transition: all ease .5s;
+
+        }
+        .bar {
+            width: 100%;
+            border-top: 1px solid var(--third-color);
+        }
+        .cat {
+            padding-top: 2vh;
+            display: block;
+            font-size: .5rem;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        h3 {
+            transition: all ease .5s;
+            // -webkit-text-stroke: 4px transparent;
+            margin-bottom: 12vh;
+            font-size: 3rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            overflow: hidden;
+            span {
+                display: inline-block;
+            }
+        }
+    }
+}

@@ -5,6 +5,7 @@ import Create from '../components/home/create/Create'
 import Ecoute from '../components/home/ecoute/Ecoute'
 import Project from '../components/home/projects/Project'
 import Quality from '../components/home/quality/Quality'
+import Showcase from '../components/home/showcase/Showcase'
 import Start from '../components/home/start/Start'
 import Talk from '../components/home/talk/Talk'
 import { TalkFormProvider } from '../context/TalkFormContext'
@@ -24,7 +25,8 @@ export default function Home() {
         <Ecoute/>
         <Create/>
         <Start/>
-        <Project/>
+        {/* <Project/> */}
+        <Showcase/>
         <TalkFormProvider>
         <Talk/>
         </TalkFormProvider>
