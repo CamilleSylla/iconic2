@@ -12,18 +12,18 @@
             display: flex;
             justify-content: space-between;
             .item {
-                height: 15vh;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
                 h2 {
                     font-size: .85rem;
+                    padding-bottom: 2vh;
                 }
                 span {
                     font-size: 1.5rem;
                 }
                 p {
-                    font-size: .5rem;
+                    font-size: .4rem;
                 }
             }
         }

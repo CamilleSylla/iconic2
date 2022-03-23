@@ -1,0 +1,46 @@
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 15vh 0 15vh 0;
+    position: relative;
+    overflow: hidden;
+    .container {
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+        z-index: 1;
+    }
+    h1 {
+        font-size: var(--big-title);
+        width: 70%;
+        line-height: 2.5rem;
+    }
+    img {
+        position: absolute;
+        z-index: 0;
+    }
+    .ill {
+        opacity: .25;
+        height: 40vh;
+        left: 50%;
+        bottom: 5vh;
+    }
+    .ill_blur {
+        height: 80vh;
+        filter: blur(10px);
+        right: -40vh;
+        bottom: 0;
+    }
+    .content {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        .item {
+            width: 45%;
+            h2 {
+                padding: 5vh 0 2vh 0;
+                font-size: var(--medium-title);
+            }
+        }
+    }
+}

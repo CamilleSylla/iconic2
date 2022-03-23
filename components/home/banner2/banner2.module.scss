@@ -1,0 +1,125 @@
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        height: 70%;
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr) .5fr repeat(2, 1fr);
+grid-template-rows: repeat(5, 1fr) .5fr;
+grid-column-gap: 1vw;
+grid-row-gap: 1vw;
+    }
+    .main, .second, .third {
+        width: 100%;
+        height: 100%;
+        background: rgba(146, 10, 146, .1);
+        border-radius: 20px;
+        transition: all ease .5s;
+        display: flex;
+        .title {
+            z-index: 1;
+            width: 90%;
+            padding-bottom: 5vh;
+            h1 {
+                padding-bottom: 1vh;
+                text-transform: initial;
+                font-size: var(--big-title);
+            }
+            p {
+                color: var(--third-color);
+                font-size: .4rem;
+            }
+        }
+        &:hover {
+            transform: scale(.95);
+        }
+    }
+    .second, .third {
+        &:hover {
+            background: rgba(255, 255, 255, .5);
+        }
+        
+    }
+    .main {
+        background-image: url('https://i0.wp.com/ambitionimmo.fr/wp-content/uploads/2021/06/document-mgt.gif?fit=1200%2C900&ssl=1');
+        background-size: 120%;
+        background-position: center;
+        grid-area: 1 / 1 / 7 / 6;
+        justify-content: center;
+        position: relative;
+        .filter {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: linear-gradient(0deg, rgba(242,242,242,1) 0%, rgba(253,187,45,0) 40%);
+            z-index: 0;
+        }
+        .title {
+            align-self: flex-end;
+        }
+        &:hover {
+            background-size: 100%;
+        }
+    }
+    .second {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .ill_wrapper {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .ill {
+                width: 30vh;
+                height: 30vh;
+                border-radius: 50%;
+                background-image: url('https://cdn.dribbble.com/users/1008377/screenshots/3435889/lego.gif');
+                background-size: 200%;
+                background-position: center;
+                transition: all ease-in-out .6s;
+            }
+        }
+        .title {
+            padding-bottom: 2vh;
+            h1 {
+                font-size: .85rem;
+                padding-bottom: .2vh;
+                line-height: 1.25rem;
+                font-weight: 500;
+            }
+            p {
+                line-height: initial;
+            }
+        }
+        grid-area: 1 / 6 / 5 / 8;
+        &:hover {
+            .ill {
+                background-size: 150%;
+            }
+        }
+    }
+    .third {
+        justify-content: center;
+        .title {
+            padding-bottom: 2vh;
+            h1 {
+                font-size: .85rem;
+                padding-bottom: .2vh;
+                line-height: 1.25rem;
+                font-weight: 500;
+            }
+            p {
+                line-height: initial;
+            }
+        }
+        grid-area: 5 / 6 / 7 / 8;
+        }
+}

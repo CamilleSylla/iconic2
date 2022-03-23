@@ -1,5 +1,4 @@
 .wrapper {
-    background: var(--primary-color);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -35,6 +34,9 @@
     }
     .content {
         width: 35%;
+        background: rgba(146, 10, 146, .1);
+        padding: 5vh 2vw 5vh 2vw;
+        border-radius: 20px;
         .acc_item {
             h3 {
                 font-size: .5rem;
