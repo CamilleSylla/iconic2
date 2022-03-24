@@ -7,15 +7,53 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 5;
+    z-index: 1;
     .container {
         width: 90%;
         height: 80%;
         display: flex;
         justify-content: space-between;
-        align-items: center;
         img {
-            height: 80%;
+            height: 60%;
+            align-self: flex-end;
+            z-index: 5;
+        }
+        
+    }
+}
+.menu {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    visibility: hidden;
+    bottom: 0;
+    left: 50%;
+    z-index: 2;
+    transform: translate3d(-50%, 0, 0);
+    width: 90%;
+    height: 85%;
+    bottom: 0;
+    transition: all ease .5s;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    ul {
+        list-style: none;
+        li {
+            overflow: hidden;
+            cursor: pointer;
+            p {
+                font-family: 'Barlow Semi Condensed', sans-serif;
+                font-size: 1.75rem;
+                text-transform: uppercase;
+                line-height: var(--big-title);
+                color: #F2F2F2;
+                transition: all ease .5s;
+            }
+            &:hover {
+                p {
+                    letter-spacing: .5rem;
+                }
+            }
         }
     }
 }

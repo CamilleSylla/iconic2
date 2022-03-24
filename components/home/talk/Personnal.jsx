@@ -15,10 +15,18 @@ export default function Personnal () {
   const onFormSubmit = e => {
     const test = true
 
-    sendBtnRef.current.disabled = true
-    toast.success(`Merci ${talkForm.personnal.name} votre message a bien été envoyé ! 👍🏽🥳`, {
-      className: style.toast,
-    })
+    if (test == true) {
+      sendBtnRef.current.disabled = true
+      toast.success(`Merci ${talkForm.personnal.name} votre message a bien été envoyé ! 👍🏽🥳`, {
+        className: style.toast,
+      })
+    } else {
+      sendBtnRef.current.disabled = false
+      toast.error(`😧 Oups ! Une erreur c'est produite...\nMerci de vérifier de bien avoir remplis tout les champs du formulaire`, {
+        className: style.toast,
+      })
+    }
+
   }
 
     return (

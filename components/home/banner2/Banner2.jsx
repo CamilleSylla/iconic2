@@ -11,7 +11,12 @@ export default function Banner2 () {
         gsap.registerPlugin(ScrollTrigger)
 
         const articles = containerRef.current.getElementsByTagName('article')
-        console.log(articles);
+        const convert = gsap.utils.toArray(articles)
+        convert.forEach(el => {
+            const scale = gsap.to(el,{ scale: .95, duration: .2, paused: true, ease: "none"})
+        el.addEventListener("mouseenter", () => scale.play());
+        el.addEventListener("mouseleave", () => scale.reverse())
+        })
         gsap.from(articles, {
             // delay: .5,
             stagger: .35,

@@ -1,11 +1,6 @@
 import { useState, useRef, useContext } from "react";
-import Business from "./Business";
-import Functionnality from "./Functionnality";
-import Goal from "./Goal";
-import Graphique from "./Graphique";
 import Personnal from "./Personnal";
 import style from "./talk.module.scss";
-import { TalkFormContext } from "../../../context/TalkFormContext";
 
 
 export default function Talk() {

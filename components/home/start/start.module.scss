@@ -3,6 +3,7 @@
     height: 100vh;
     overflow: hidden;
     display: flex;
+    justify-content: space-between;
     .content {
         width: 40%;
         height: 100%;
@@ -17,13 +18,14 @@
                 width: 80%;
                 h2 {
                     font-size: var(--big-title);
+                    text-transform: uppercase;
                     font-weight: 400;
                 }
             }
         }
     }
     .grid_container {
-        width: 60%;
+        width: 55%;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -55,6 +57,7 @@
                     brightness(124%) contrast(111%);                }
                 h3 {
                     color: var(--third-color);
+                    text-transform: uppercase;
                     padding: 5vh 0 1vh 0;
                 }
                 p {

@@ -11,6 +11,10 @@
         padding: 0 0 15vh 0;
         width: 90%;
         margin: 0 auto;
+        h2 {
+            text-transform: uppercase;
+            font-size: var(--big-title);
+        }
     }
     .project {
         width: 90%;
