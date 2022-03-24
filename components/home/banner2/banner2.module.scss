@@ -45,12 +45,13 @@ grid-row-gap: 1vw;
         
     }
     .main {
-        background-image: url('https://i0.wp.com/ambitionimmo.fr/wp-content/uploads/2021/06/document-mgt.gif?fit=1200%2C900&ssl=1');
+        background-image: url('https://c.tenor.com/b7YFItRnYToAAAAd/water-blue.gif');
         background-size: 120%;
         background-position: center;
         grid-area: 1 / 1 / 7 / 6;
         justify-content: center;
         position: relative;
+        overflow: hidden;
         .filter {
             width: 100%;
             height: 100%;
@@ -81,8 +82,8 @@ grid-row-gap: 1vw;
                 width: 30vh;
                 height: 30vh;
                 border-radius: 50%;
-                background-image: url('https://cdn.dribbble.com/users/1008377/screenshots/3435889/lego.gif');
-                background-size: 200%;
+                background-image: url('http://pa1.narvii.com/7922/a36d7fe929b27fc3735e30d3cef1b164c9c2c8car1-200-200_00.gif');
+                background-size: 150%;
                 background-position: center;
                 transition: all ease-in-out .6s;
             }
@@ -102,7 +103,8 @@ grid-row-gap: 1vw;
         grid-area: 1 / 6 / 5 / 8;
         &:hover {
             .ill {
-                background-size: 150%;
+                transform: scale(.85);
+                background-size: 100%;
             }
         }
     }

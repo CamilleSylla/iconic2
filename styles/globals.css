@@ -9,6 +9,7 @@ body {
   --secondary-color : black; 
   --third-color : #920a92;
   --regular-font-size : .65rem;
+  --toastify-text-color-success: rgba(#F2F2F2, .3);
   padding: 0;
   margin: 0;
   font-size: 2vw;
@@ -17,7 +18,7 @@ body {
 }
 .app_container {
   position: fixed;
-  background-image: url('https://cdn.dribbble.com/users/600386/screenshots/3286588/waterdrop_dribbble.gif');
+  background-image: url('https://64.media.tumblr.com/6d15bfb8ea0102e96846046cf314ab70/tumblr_pvnwexJg3L1uzwgsuo1_400.gifv');
   background-size: 100%;
   top: 0;
   left: 0;
@@ -75,17 +76,21 @@ button:disabled,
 button[disabled]{
   opacity: .5;
 }
-input,textarea {
+input,textarea, select{
   font-family: 'Karla', sans-serif;
-  display: block;
   border: none;
   height: 8vh;
   font-size: var(--regular-font-size);
+  border-bottom: 2px solid var(--third-color);
   padding-left: 2vw;
-  width: 80%;
-  border: 3px solid var(--third-color);
   margin-bottom: 4vh;
-  border-radius: 10px;
+  background: transparent;
+}
+/* .toast {
+  background: ;
+} */
+select {
+  padding: 0 2vw 0 2vw;
 }
 textarea {
   padding-top: 2vh;

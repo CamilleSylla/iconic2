@@ -4,10 +4,6 @@ export const TalkFormContext = createContext();
 
 export function TalkFormProvider(props) {
     const [talkForm, setTalkForm] = useState({
-        business : {},
-        goal: {},
-        functionnality: {},
-        graphique: {},
         personnal: {}
     })
   return (

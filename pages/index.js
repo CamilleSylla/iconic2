@@ -1,4 +1,5 @@
 import Head from 'next/head'
+
 import About from '../components/home/about/About'
 import Banner from '../components/home/banner/Banner'
 import Banner2 from '../components/home/banner2/Banner2'
@@ -27,13 +28,14 @@ export default function Home() {
         <About/>
         <Quality/>
         {/* <Ecoute/> */}
-        {/* <Create/> */}
-        {/* <Start/> */}
+        <Create/>
+        <Start/>
         {/* <Project/> */}
         <Showcase/>
-        {/* <TalkFormProvider> */}
-        {/* <Talk/> */}
-        {/* </TalkFormProvider> */}
+        <TalkFormProvider>
+        <Talk/>
+        </TalkFormProvider>
+        
         {/* <Contact/> */}
       </main>
     </div>

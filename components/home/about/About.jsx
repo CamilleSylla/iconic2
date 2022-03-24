@@ -41,7 +41,7 @@ export default function About ()  {
             },
           })
 
-        tl.to(phoneRef.current, {y: "-300"}, "end")
+        tl.to(phoneRef.current, {y: "-500"}, "end")
         tl.to(laptopRef.current, {y: "-100"}, "end")
     }, [])
 

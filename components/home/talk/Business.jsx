@@ -12,6 +12,7 @@ export default function Business () {
     } 
     return (
         <div className={style.business}>
+            <p>
             <input type='text' onChange={e => onInputChange("name",e.target.value)} placeholder="Nom de l'entreprise"/>
             <input type='tel' onChange={e => onInputChange("tel",e.target.value)} placeholder="N° téléphone de l'entreprise"/>
             <input type='text' onChange={e => onInputChange("activity",e.target.value)} placeholder="Décrivez votre activité"/>
@@ -22,6 +23,7 @@ export default function Business () {
             {talkForm.business.existing_website === "on" ?(
             <input type='text' onChange={e => onInputChange("website_url",e.target.value)} placeholder="url du site internet de l'entreprise"/>
             ) : null}
+            </p>
         </div>
     )
 }

@@ -1,22 +1,24 @@
 .wrapper {
     width: 100%;
     height: 100vh;
+    overflow: hidden;
     display: flex;
     .content {
         width: 40%;
         height: 100%;
-        background-image: url('/assets/img/background.jpg');
         background-size: cover;
         .blur {
             width: 100%;
             height: 100%;
-            background: rgba(#F2F2F2, .5);
-            backdrop-filter: blur(70px);
             display: flex;
             justify-content: center;
             align-items: center;
             .container {
                 width: 80%;
+                h2 {
+                    font-size: var(--big-title);
+                    font-weight: 400;
+                }
             }
         }
     }
@@ -26,37 +28,44 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: var(--third-color);
+        background: rgba(146, 10, 146, 0.1);
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
         .grid {
             width: 80%;
             height: 80%;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(2, 1fr);
-            grid-column-gap: 5vh;
-            grid-row-gap: 5vh;
+            grid-column-gap: 2vh;
+            grid-row-gap: 2vh;
             div {
+                transition: all ease .5s;
+                background: rgba(#F2F2F2, 0.5);
+            border-radius: 20px;
                 width: 100%;
                 height: 100%;
-                border: 4px solid var(--primary-color);
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 img {
                     height: 5vh;
-                    filter: invert(100%) sepia(0%) saturate(6480%) hue-rotate(193deg) brightness(120%) contrast(90%);
-                }
+                    filter: invert(12%) sepia(42%) saturate(5669%) hue-rotate(287deg)
+                    brightness(124%) contrast(111%);                }
                 h3 {
-                    color: var(--primary-color);
+                    color: var(--third-color);
                     padding: 5vh 0 1vh 0;
                 }
                 p {
                     width: 90%;
-                    color: var(--primary-color);
+                    color: var(--third-color);
                     text-align: center;
                     font-size: .5rem;
                     line-height: .65rem;
+                }
+                &:hover {
+                    background: rgba(146, 10, 146, 0.1);
                 }
         // &:first-of-type {
         //     grid-area: 1 / 1 / 2 / 2;
