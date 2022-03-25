@@ -24,7 +24,7 @@ export default function About ()  {
 
         return (
             <article className={style.item}>
-                <h2>{data.title}</h2>
+                <h2 className='label'>{data.title}</h2>
                 <p>{data.desc}</p>
             </article>
         )
