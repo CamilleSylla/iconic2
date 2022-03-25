@@ -81,12 +81,36 @@
         .content {
             padding: 0 0 5vh 0;
             width: 100%;
+            button {
+                margin: 3vh 0 0 0;
+            }
         }
         .grid_container {
+            height: auto;
             width: 100%;
             padding: 5vh 0 5vh 0;
             .grid {
+                width: 90%;
                 grid-template-columns: repeat(1, 1fr);
+                div {
+                    display: block;
+                    padding: 4vh 0 4vh 0;
+                    svg, img {
+                        margin-left: 3.5%;
+                    }
+                    h3 {
+                        padding: 1vh 0 2vh 0;
+                        width: 90%;
+                        margin: 0 auto;
+                    }
+                    p {
+                        font-size: initial;
+                        line-height: 2rem;
+                        width: 90%;
+                        margin: 0 auto;
+                        text-align: left;
+                    }
+                }
             }
         }
     }

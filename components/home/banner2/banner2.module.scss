@@ -131,6 +131,15 @@ grid-row-gap: 1vw;
         .container{
             grid-template-columns: repeat(1, 1fr);
             grid-template-rows: repeat(3, 1fr);
+            .main, .second, .third {
+                h2 {
+                    font-size: initial;
+                }
+                p {
+                    font-size: initial;
+                    line-height: 2rem;
+                }
+            }
             .main {
                 grid-area: 1 / 1 / 2 / 2;
             }

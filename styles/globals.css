@@ -201,4 +201,8 @@ body {
 p {
   line-height: 2rem;
 }
+.label {
+  line-height: 1.25rem;
+  font-size: 1rem;
+}
 }
