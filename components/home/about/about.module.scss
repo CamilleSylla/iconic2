@@ -44,3 +44,18 @@
         }
     }
 }
+
+@media (max-width: 991.98px) {
+    .wrapper {
+        .container {
+            .content {
+                width: 100%;
+                margin: 0 auto;
+                display: block;
+                .item {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

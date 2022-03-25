@@ -1,12 +1,8 @@
 import Head from 'next/head'
 
 import About from '../components/home/about/About'
-import Banner from '../components/home/banner/Banner'
 import Banner2 from '../components/home/banner2/Banner2'
-import Contact from '../components/home/contact/Contact'
 import Create from '../components/home/create/Create'
-import Ecoute from '../components/home/ecoute/Ecoute'
-import Project from '../components/home/projects/Project'
 import Quality from '../components/home/quality/Quality'
 import Showcase from '../components/home/showcase/Showcase'
 import Start from '../components/home/start/Start'
@@ -23,20 +19,15 @@ export default function Home() {
       </Head>
 
       <main>
-        {/* <Banner/> */}
         <Banner2/>
         <About/>
         <Quality/>
-        {/* <Ecoute/> */}
         <Create/>
         <Start/>
-        {/* <Project/> */}
         <Showcase/>
         <TalkFormProvider>
         <Talk/>
         </TalkFormProvider>
-        
-        {/* <Contact/> */}
       </main>
     </div>
   )

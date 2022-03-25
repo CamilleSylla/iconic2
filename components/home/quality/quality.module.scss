@@ -55,3 +55,38 @@
         }
     }
 }
+
+@media (max-width: 991.98px) {
+    .wrapper {
+        .container {
+            display: block;
+            .stats {
+                display: block;
+                .item {
+                    width: 100%;
+                    padding-bottom: 4vh;
+                    h2 {
+                        font-size: 2rem;
+                    }
+                    span {
+                        font-size: 3rem;
+                    }
+                    p {
+                        font-size: initial;
+                        line-height: 2rem;
+                    }
+                }
+            }
+            .avis {
+                width: 100%;
+                .avis_wrapper {
+                    width: 100%;
+                    p {
+                        font-size: initial;
+                        line-height: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}

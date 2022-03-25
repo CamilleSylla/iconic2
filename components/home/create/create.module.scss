@@ -24,12 +24,6 @@
         padding: 5vh 2vw 5vh 2vw;
         border-radius: 20px;
         transition: all ease .5s;
-        img {
-          width: 2vw;
-
-          filter: invert(12%) sepia(42%) saturate(5669%) hue-rotate(287deg)
-            brightness(124%) contrast(111%);
-        }
         h2 {
           padding: 2vh 0 2vh 0;
         }
@@ -39,8 +33,29 @@
           line-height: 0.65rem;
         }
         &:hover {
-            background: rgba(255, 255, 255, .5);
+          background: rgba(255, 255, 255, .5);
 
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .wrapper {
+    .container {
+      .title {
+        h1 {
+          width: 100%;
+          padding-bottom: 2vh;
+        }
+      }
+      .steps {
+        flex-direction: column;
+        .card {
+          padding: 5vh 6vw 5vh 6vw;
+          width: 100%;
+          margin-bottom: 2vh;
         }
       }
     }

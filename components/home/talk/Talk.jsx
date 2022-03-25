@@ -12,10 +12,7 @@ export default function Talk() {
   const Form = () => {
     return (
       <div className={style.form_wrapper}>
-        <div className={style.progress}></div>
         <div className={style.form_container}>
-          <div className={style.header}>
-          </div>
           <div className={style.body}>
             <Personnal/>
           </div>
