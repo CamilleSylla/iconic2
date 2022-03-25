@@ -133,7 +133,7 @@ export default function Showcase () {
     }, [])
 
     return (
-        <section ref={startRef} className={style.wrapper}>
+        <section id="projects" ref={startRef} className={style.wrapper}>
             <div className={style.filter}>
 
             <div className={style.title}>

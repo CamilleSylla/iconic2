@@ -22,7 +22,7 @@ export default function Talk() {
   };
 
   return (
-    <section className={style.wrapper}>
+    <section id="contact" className={style.wrapper}>
       <div className={style.container}>
       <h1>Vous avez un projet ?</h1>
         <Form/>

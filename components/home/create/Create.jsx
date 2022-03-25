@@ -4,6 +4,7 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 
 export default function Create() {
+
   const startRef = useRef();
 
   const Title = () => {
@@ -173,7 +174,7 @@ export default function Create() {
   };
 
   return (
-    <section className={style.wrapper}>
+    <section id="create" className={style.wrapper}>
       <div className={style.container}>
         <Title />
         <Steps />

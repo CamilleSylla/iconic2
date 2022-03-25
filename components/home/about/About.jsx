@@ -30,6 +30,7 @@ export default function About ()  {
         )
     }
     useEffect(() => {
+
         gsap.registerPlugin(ScrollTrigger)
 
         const tl = gsap.timeline({
@@ -46,7 +47,7 @@ export default function About ()  {
     }, [])
 
     return ( 
-        <section ref={startRef} className={style.wrapper}>
+        <section id="about" ref={startRef} className={style.wrapper}>
             <img ref={phoneRef} className={style.ill} src="https://isometric.online/wp-content/uploads/2019/07/Mobile_notification_SVG.svg"/>
             <img ref={laptopRef} className={style.ill_blur} src="https://isometric.online/wp-content/uploads/2019/07/workspace_SVG.svg"/>
             <div className={style.container}>

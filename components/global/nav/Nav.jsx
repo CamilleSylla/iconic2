@@ -1,13 +1,16 @@
 import style from "./nav.module.scss";
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useContext } from "react";
 import gsap from "gsap";
+import { NavContext } from "../../../context/NavContext";
 
 export default function Nav() {
+  const [nav, setNav] = useContext(NavContext)
   const hamRef = useRef();
   const menuRef = useRef();
   const listRef = useRef();
   const [open, setOpen] = useState(false);
   let menuOpen = false;
+
 
   const Menu = () => {
     return (
@@ -47,17 +50,28 @@ export default function Nav() {
     );
   };
   useEffect(() => {
+    const li = listRef.current.getElementsByTagName("li");
+    const convertLi = gsap.utils.toArray(li);
+
+    convertLi.map((el, i) => {
+      el.addEventListener('click', () => {
+        console.log(i ,nav[i].offsetTop, convertLi.length, nav.length);
+        window.scroll({ top :nav[i].offsetTop, behavior : "smooth"})
+        menuOpen = false
+      })
+    })
+
     const burger = document.querySelector(".hamburger_btn");
     const burgerBack = document.querySelector(".hamburger_background");
     const list = listRef.current.getElementsByTagName("p");
     const convertedList = gsap.utils.toArray(list);
     burger.addEventListener("click", () => {
       if (!menuOpen) {
-        const x = window.scrollX;
-        const y = window.scrollY;
-        window.onscroll = function () {
-          window.scrollTo(x, y);
-        };
+        // const x = window.scrollX;
+        // const y = window.scrollY;
+        // window.onscroll = function () {
+        //   window.scrollTo(x, y);
+        // };
 
         burger.classList.add("open");
         burgerBack.classList.add("open");
@@ -87,7 +101,7 @@ export default function Nav() {
       }
     });
     // setOpen(menuOpen)
-  }, [menuOpen]);
+  }, [menuOpen, nav]);
 
   return (
     <>

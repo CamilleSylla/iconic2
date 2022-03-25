@@ -205,4 +205,8 @@ p {
   line-height: 1.25rem;
   font-size: 1rem;
 }
+.hamburger_btn {
+  height: 6vh;
+  width: 6vh;
+}
 }

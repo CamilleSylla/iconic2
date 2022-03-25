@@ -32,7 +32,7 @@ export default function Start() {
                 stroke="var(--third-color)"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                stroke-Width="1.5"
+                strokeWidth="1.5"
                 d="M6.75024 19.2502H17.2502C18.3548 19.2502 19.2502 18.3548 19.2502 17.2502V8.18322C19.2502 7.89772 19.1891 7.61553 19.071 7.35561L18.5332 6.17239C18.2086 5.45841 17.4967 5 16.7124 5H7.28807C6.50378 5 5.79188 5.45841 5.46734 6.1724L4.92951 7.35561C4.81137 7.61553 4.75024 7.89772 4.75024 8.18322V17.2502C4.75024 18.3548 5.64568 19.2502 6.75024 19.2502Z"
               ></path>
               <path
@@ -153,6 +153,7 @@ export default function Start() {
   };
 
   useEffect(() => {
+
     gsap.registerPlugin(ScrollTrigger);
 
     const divs = divRef.current.getElementsByTagName("div");
@@ -191,7 +192,7 @@ export default function Start() {
   }, []);
 
   return (
-    <section ref={startRef} className={style.wrapper}>
+    <section id="domaines" ref={startRef} className={style.wrapper}>
       <Content />
       <Grid />
     </section>

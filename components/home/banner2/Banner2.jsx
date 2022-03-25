@@ -28,7 +28,7 @@ export default function Banner2 () {
     },[]) 
 
     return( 
-        <section className={style.wrapper}>
+        <section id="top" className={style.wrapper}>
             <div ref={containerRef} className={style.container}>
                 <article className={style.main}>
                     <div className={style.filter}/>
