@@ -13,7 +13,6 @@ export function NavProvider(props) {
       const projects = document.getElementById('projects')
       const contact = document.getElementById('contact')
       setNav([, acceuil, aPropos, votreSite, domaines, projects, contact]);
-      console.log([acceuil, aPropos, votreSite, domaines, projects, contact]);
     },[])
   return (
     <NavContext.Provider value={[nav, setNav]}>

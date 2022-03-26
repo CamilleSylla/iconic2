@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>IconicDev - Camille Sylla</title>
+        <title>IconicDev - Saint-Quentin</title>
         <meta name="description" content="Création de site internet. Location de site internet. Basé à Saint-Quentin, 02100 Aisne" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

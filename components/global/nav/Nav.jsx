@@ -101,7 +101,7 @@ export default function Nav() {
       }
     });
     // setOpen(menuOpen)
-  }, [menuOpen, nav]);
+  }, [menuOpen]);
 
   return (
     <>

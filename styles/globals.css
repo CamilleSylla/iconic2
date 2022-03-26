@@ -19,7 +19,8 @@ body {
 }
 .app_container {
   position: fixed;
-  background-image: url('https://64.media.tumblr.com/6d15bfb8ea0102e96846046cf314ab70/tumblr_pvnwexJg3L1uzwgsuo1_400.gifv');
+  /* background-image: url('https://64.media.tumblr.com/6d15bfb8ea0102e96846046cf314ab70/tumblr_pvnwexJg3L1uzwgsuo1_400.gifv'); */
+  background-image: url('https://64.media.tumblr.com/8b8e639a6b90a6aa26e1a4b89c62478c/tumblr_plos7zx99z1uzwgsuo1_400.gifv');
   background-size: 100%;
   top: 0;
   left: 0;

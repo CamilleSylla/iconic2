@@ -19,8 +19,8 @@ export default function Banner2 () {
         })
         gsap.from(articles, {
             // delay: .5,
-            stagger: .35,
-            duration: 1, 
+            stagger: .1,
+            duration: .5, 
             ease: "none",
              y: 100,
               opacity: 0
