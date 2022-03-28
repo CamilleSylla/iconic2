@@ -33,7 +33,7 @@ export default function Banner2 () {
                 <article className={style.main}>
                     <div className={style.filter}/>
                     <div className={style.title}>
-                        <h1>Dernierès réalisation</h1>
+                        <h1>Dernierès réalisations</h1>
                         <p className='label'>Découvrez les dernières créations web de IconicDev</p>
                     </div>
                 </article>
@@ -43,8 +43,8 @@ export default function Banner2 () {
 
                     </div>
                     <div className={style.title}>
-                        <h1>Créer mon projet web</h1>
-                        <p className='label'>Connaitre votre créateur de site internet</p>
+                        <h1>Créer mon site internet</h1>
+                        <p className='label'>Un formulaire simple pour demarrer votre projet web</p>
                     </div>
 
                 </article>

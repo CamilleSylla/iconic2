@@ -119,17 +119,6 @@ export default function Showcase () {
         barRef.current.forEach((el, i) => {
             gsap
         })
-
-        // titleRef.current.forEach((el, i) => {
-        //     const spans = el.getElementsByTagName('span')
-        //     gsap.from(spans, {
-        //         stagger: .1,
-        //         y: "+500",
-        //         transform: "rotate(90deg)",
-        //         duration: .4,
-        //         opacity: .5
-        //     })
-        // })
     }, [])
 
     return (
@@ -138,7 +127,7 @@ export default function Showcase () {
 
             <div className={style.title}>
             <h2>Dernierès réalisations</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae ex pellentesque, maximus arcu sed, ultrices eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <p>Les dernières création de site internet d'IconicDev - Camille Sylla</p>
             </div>
             {projectData.map((el, i) => {
                 return <Project data={el} key={el.name}/>

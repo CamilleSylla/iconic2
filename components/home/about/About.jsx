@@ -5,12 +5,12 @@ import style from './about.module.scss'
 
 const aboutData = [
     {
-        title : "titre",
-        desc : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in mauris id neque finibus bibendum at vitae quam. Quisque ac orci tellus. Suspendisse interdum sagittis metus, sit amet rutrum tellus dictum at. Mauris lacus urna, malesuada vel odio ac, aliquam scelerisque libero. Donec iaculis bibendum nunc sed rutrum. Nulla eleifend rhoncus est quis bibendum."
+        title : "Choisissez l'expertise IconicDev",
+        desc : "Vous souhaitez créer votre site internet ou une refonte ? IconicDev - Camille Sylla est spécialisé dans la création de site internet et vous accompagnera du début à la fin de la conception de votre site, et même après son lancement."
     },
     {
-        title : "titre",
-        desc : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in mauris id neque finibus bibendum at vitae quam. Quisque ac orci tellus. Suspendisse interdum sagittis metus, sit amet rutrum tellus dictum at. Mauris lacus urna, malesuada vel odio ac, aliquam scelerisque libero. Donec iaculis bibendum nunc sed rutrum. Nulla eleifend rhoncus est quis bibendum."
+        title : " La mission, retranscrire votre image sur votre site internet",
+        desc : "Aujourd’hui, un site web est devenu obligatoire pour donner de la crédibilité à votre entreprise. Un site sur-mesure design et à votre image vous permettra de vous différencier de vos concurrent et d’offrir à vos utilisateurs une expérience unique"
     },
 ]
 

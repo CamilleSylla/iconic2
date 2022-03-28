@@ -12,8 +12,7 @@ export default function Create() {
       <div className={style.title}>
         <h1>Construisez votre site web à votre image</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus
-          sed nibh non feugiat.
+          Il est important de vous différenciez de votre concurrence grâce à votre site internet
         </p>
       </div>
     );
@@ -85,8 +84,8 @@ export default function Create() {
           </svg>
           <h2 className="label">Votre identité sur internet</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            rhoncus sed nibh non feugiat.
+          Mettez en avant votre style graphique afin de marquer les esprits
+
           </p>
         </article>
         <article className={style.card}>
@@ -109,9 +108,7 @@ export default function Create() {
 
           <h2 className="label">Un site internet design et animé</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            rhoncus sed nibh non feugiat.
-          </p>
+          Donnez une expérience unique à vos utilisateurs avec un design sur-mesure poussé.          </p>
         </article>
         <article className={style.card}>
           <svg height="6vh" fill="none" viewBox="0 0 24 24">
@@ -165,8 +162,7 @@ export default function Create() {
 
           <h2 className="label">Des fonctionnalitées adaptées</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            rhoncus sed nibh non feugiat.
+          Votre site disposera des fonctionnalitées dont il a besoin et sera toujours évolutif si vous souhaitez en rajouter
           </p>
         </article>
       </div>

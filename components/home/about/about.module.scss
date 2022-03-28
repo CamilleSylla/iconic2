@@ -38,8 +38,9 @@
         .item {
             width: 45%;
             h2 {
+                line-height: 1rem;
                 padding: 5vh 0 2vh 0;
-                font-size: var(--medium-title);
+                font-size: .75rem;
                 text-transform: uppercase;
             }
         }

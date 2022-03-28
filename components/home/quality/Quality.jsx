@@ -7,13 +7,13 @@ export default function Quality() {
         <div className={style.stats}>
           <div className={style.item}>
             <h2>
-              <span>57</span> projets
+              <span>62</span> projets
             </h2>
             <p className="label">depuis 2018</p>
           </div>
           <div className={style.item}>
             <h2>
-              <span>100%</span> adapté
+              <span>100%</span> vous
             </h2>
             <p className="label">La solution qui vous correspond</p>
           </div>

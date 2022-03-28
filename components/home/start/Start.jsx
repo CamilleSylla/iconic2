@@ -66,7 +66,7 @@ export default function Start() {
             </svg>
 
             <h3 className="label">Site Vitrine</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Attirez l’attention de vos prospects</p>
           </div>
           <div>
             <svg height="6vh" fill="none" viewBox="0 0 24 24">
@@ -94,7 +94,7 @@ export default function Start() {
             </svg>
 
             <h3 className="label">Site E-commerce</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Présentez et vendez vos produit en ligne</p>
           </div>
 
           <div>
@@ -130,22 +130,22 @@ export default function Start() {
             </svg>
 
             <h3 className="label">Site administratif</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Informez vos utilisateurs sur vos sujets</p>
           </div>
           <div>
             <img src="/assets/icon/handcheck.svg" />
             <h3 className="label">Site associatif</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Partagez avec vous adhérents et fédérez</p>
           </div>
           <div>
             <img src="/assets/icon/stars.svg" />
             <h3 className="label">refonte de site</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Donnez un coup de jeune à votre site</p>
           </div>
           <div>
             <img src="/assets/icon/freelance.svg" />
             <h3 className="label">freelancing</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Intervenir dans votre équipe de développeur</p>
           </div>
         </div>
       </div>
